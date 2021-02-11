@@ -1,0 +1,594 @@
+
+/* ------------ All page ------------ */
+
+body {
+    background-color: black;
+    margin: auto;
+    width: 80%;
+    font-family: YuKyokasho;
+    color:white;
+    position: relative;
+}
+
+#nav_bar {
+    margin: 50px 0px 40px 5px;
+}
+
+/*  Link */
+nav > a {
+    font-size: large;
+    margin-right: 25px;
+}
+
+a:link, a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:blue;
+}
+
+/*  Footer */
+.footer {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+footer > p {
+    font-size: 15px;
+}
+
+/*  Image wrap */
+.img_3, .img_1, .img_4 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+/*  ALL pages */
+#home_page,
+#biograpghy_page,
+#awards_page,
+#media_page  {
+    display: flex;
+    flex-wrap: wrap;      
+}
+
+/* ------------ Home page ------------ */
+
+/*  Image and Text box */
+.main_box {
+    width: 100%;
+    height:80%;
+    position: relative;
+    margin-top: 2%; 
+    margin-bottom: 60px; 
+}
+
+/*  Image */
+.VC3 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative; 
+}
+
+/*  Text div */
+.text_box {
+    width: 45%;
+    height: auto;
+    position: absolute;
+    margin: 15px;
+    padding: 15px;
+    top: 150px;
+}
+
+/*  Read more button */
+button {
+   
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em; 
+    margin-top: 10px;
+    margin-left: -1px;   
+}
+button:hover {
+    color:blue;
+}
+
+/* ------------ Biography page ------------ */
+
+/*  Main */
+.bio_box {
+    position: relative;
+    width: 100%;
+    height: auto    ;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-color: #1D3847;
+    border-radius: 8px;
+    border-width: thin;
+}
+
+/*  Image */
+.VC1 {
+    width: 35%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+    float: left; 
+}
+
+/*  Space */
+.space {
+    margin-top: 12.2%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    font-size: 120%;
+}
+
+/*  All text */
+.all_text {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+
+/*  Header and List */
+.list {
+    width: 100%;
+    height: auto;
+    color: white;
+    position: elative;  
+}
+
+ul {
+    padding-left: 18px;
+}
+
+/*  Biography */
+.bio_text {
+    position: relative;
+}
+ 
+.bio_text > p {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+/* ------------ Award page ------------ */
+
+/*  Main */
+.main_wrap {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;    
+}
+
+/*  Image */
+.VC4 {
+    width: 100%;
+    height: 30em;
+    border-radius: 5px;
+    position: relative;
+    object-fit: cover;
+}
+
+/*  Table */
+.table {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+table, th, td {
+    padding: 5px;
+}
+  
+.t_w {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    border-spacing: 10px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+td {
+    border-style: solid;
+    border-color: #1D3847;
+    border-radius: 5px;
+}
+
+/*  Header */
+.header {
+    width: 100%;
+    margin:auto;
+    font-size: x-large;   
+}
+
+.header h3 {
+    margin-bottom: 1px;
+    text-align: center; 
+    margin-top: 0px;
+}
+ 
+.header h6  {
+    margin-top: 1px;
+    text-align: center; 
+}
+
+th {
+    text-align: left;
+    font-size: 20px;
+}  
+
+/* ------------ Media page------------- */
+
+/*  Page */
+#media_page {
+    margin-bottom: 60px;
+}
+
+#media_page > header {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/*  Header */
+.media_h  {
+    width: 100%;
+    height: auto;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    
+}
+
+.media_h > h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/*  Image */
+.img_2 {
+    width: 50%;
+    height: auto;
+    position: relative;
+    margin-left: 50%;
+}
+
+.VC2 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+/*  Quote */
+.q_wrap {
+    width: 41%;
+    height: auto;
+    position: relative;
+    margin-top: 25%;
+}
+
+.quote {
+    width: 100%;
+    height: auto;
+    position: relative;  
+    color: white;
+    padding: 5%;
+}
+
+.quote h4 {
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+
+
+/*  Vedio */
+.vedio {
+    width: 61%;
+    height: auto;
+    position: relative;
+}
+
+iframe {
+    position: relative;
+    width: 100%;
+    height: 165%;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+
+
+/* ----------- Responsive view ------------ */
+
+/* Home page */
+@media screen  and (min-width: 1280px) and (max-width: 1350px) {
+    .text_box {
+       top: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .text_box {
+        top: 15px;   
+    }
+}
+
+@media screen and (max-width: 1055px) {
+    .text_box {
+        width: 100%;
+        height: auto;
+        position: unset;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 3em;
+    }
+
+    .VC3 {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        position: relative;
+        object-fit: fill;  
+        margin-bottom: 3em;
+    }
+
+    button {
+        color: black;
+        background-color: white;
+    }
+
+    button:hover {
+        color:white;
+        background-color: #888B8B;
+    }
+}
+
+/* Biography page */
+
+@media screen and (max-width: 1203px) {
+    .VC1 {
+        width: 48%;
+        height: auto;
+        border-radius: 5px;
+        position: relative;
+        float: left; 
+    }
+    
+    .space {
+        position: absolute;
+        bottom: 0px;
+        font-size: 115%;
+    }
+    
+    .all_text {
+        width: 45%;
+        height: 100%;
+        margin-left: 5%;
+        position: relative;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1344px) { 
+    .all_text {
+        font-size: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1124px) { 
+    .all_text {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 1049px) { 
+    .all_text {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 995px) { 
+    .all_text {
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 918px) { 
+    .all_text {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 870px) { 
+    .all_text {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 793px) { 
+    .all_text {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 745px) { 
+    .all_text {
+        font-size: 40%;
+    }
+  
+}
+
+@media screen and (max-width: 655px) { 
+    
+    .VC1 {
+        float: unset; 
+    }
+
+    .space {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    .all_text {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    ul {
+        padding-left: 14px;
+    }
+    a:link, a:visited {
+        font-size: 60%;
+    }
+
+    .bio_box {
+        border-style: unset ;
+    }
+
+    .bio_text {
+        position: relative;
+        bottom: 0px;  
+        margin-top: 20px;
+    }
+
+    footer > p {
+        font-size: 10px;
+    }
+  
+}
+
+/* Award page */
+@media screen and (min-width: 2560px) {
+
+    .VC4 {        
+        object-fit: contain;
+    }
+    
+}
+
+@media screen and (max-width: 745px) {
+
+.VC4 {   
+    height: auto;      
+}
+
+.header h3 {
+    font-size: 20px;
+    }
+    
+}
+
+/* Award page */
+
+@media screen and (max-width: 809px) {
+    .media_h h1 {
+        font-size: 150%;
+    }
+
+    .quote {
+        margin-top: 10%;
+    }
+
+    .quote h4 {
+        font-size: 10px;
+    }
+
+    .quote p {
+            font-size: 15px;
+        }
+
+    .img_2 {
+            width: 70%;
+            margin-left: 30%;
+        }
+}
+
+
+@media screen and (max-width: 670px) {
+    .vedio {
+        width: 85%;
+    }
+    .quote {
+        margin-top: 30%;
+        width: 160%;
+    }
+
+    .media_h h1 {
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .vedio {
+        width: 60%;
+    }
+
+    iframe {
+        height: 100%;
+    }
+    .q_wrap {
+        margin-top: 0px;
+    }
+
+    .quote {
+        margin-top: 5%;
+    }
+
+    .media_h h1 {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .media_h h1 {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .quote {
+        width: 200%;
+        font-size: 50%;
+        margin-top: 10%;
+    }    
+    
+    .media_h h1 {
+        font-size: 75%;
+    }
+
+    .vedio {
+        width: 60%;
+    }
+
+    iframe {
+        width: 150%;
+    }
+}
